@@ -1,0 +1,168 @@
+.App {
+  text-align: center;
+}
+
+.navbar {
+  display: flex;
+  margin: 0px;
+  background: linear-gradient(90deg,#672289 0%,#A626D3 80%);
+  color: white;
+}
+
+.navbar img {
+  width: 40px;
+  height: 40px;
+  margin: auto 0;
+  padding: 5px 10px 5px 20px;
+}
+
+.navbar h2 {
+  padding: 5px 10px;
+}
+
+.navbar h4 {
+  margin: auto 0 auto auto;
+  padding: 5px 20px;
+}
+
+main {
+  padding: 36px;
+}
+
+.form {
+  display: grid;
+  grid-template: 40px 40px / 1fr 1fr;
+  gap: 16px;
+}
+
+.new-meme-button {
+  grid-column: 1 / -1;
+  background: linear-gradient(90deg,#672289 0%,#A626D3 80%);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.form-input {
+  border-radius: 5px;
+  border: 1px solid #D5D4D8;
+  text-indent: 5px;
+}
+
+.meme-image {
+  position: relative;
+}
+
+
+.meme--text {
+  position: absolute;
+  width: 80%;
+  text-align: center;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 15px 0;
+  padding: 0 5px;
+  font-family: impact, sans-serif;
+  font-size: 2em;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 1px;
+  text-shadow:
+      2px 2px 0 #000,
+      -2px -2px 0 #000,
+      2px -2px 0 #000,
+      -2px 2px 0 #000,
+      0 2px 0 #000,
+      2px 0 0 #000,
+      0 -2px 0 #000,
+      -2px 0 0 #000,
+      2px 2px 5px #000;
+}
+
+.bottom {
+  bottom: 0;
+}
+
+.top {
+  top: 0;
+}
+img {
+  width: 50%;
+  padding: 20px;
+}
+
+img:hover {
+  filter: brightness(50%);
+}
+
+
+/* .form {
+  margin: 60px;
+}
+
+.form input{
+  width: 40%;
+  max-width: 300px;
+  height: 25px;
+  padding: 10px;
+  margin: 20px;
+  border-radius: 4px;
+  border: gray solid 1px;
+  font-size: large;
+}
+
+.new-meme-button {
+  display: block;
+  margin: auto;
+  width: 100%;
+  max-width: 690px;
+  padding: 20px;
+  border-radius: 10px;
+  border: #672289;
+  background: linear-gradient(90deg,#672289 0%,#A626D3 80%);
+  color: white;
+  font-size: large;
+  font-weight: 600;
+  cursor: pointer;
+}
+ */
+.image-icon {
+  margin: -4px;
+  padding-left: 10px;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

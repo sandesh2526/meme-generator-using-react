@@ -20,6 +20,6 @@ We can rather use this to play a game in which we can have two different caption
 
 ## Technicals
 
-We use different types of react hooks such as useState, useEffect etc. to fetch the data from the API and then main it in a state in application.
+We use different types of react hooks in this application such as useEffect to fetch the data from the API and then store this data in the state of the application using a state variable.
 
 We are fetching the data that application requires to create a meme (Basically a meme image) using the API [https://api.imgflip.com/get_memes](imgflip)

@@ -8,7 +8,7 @@ The project is made while following steps in course :  [https://scrimba.com/lear
 
 The application produces a random image fetched from a API and applies the tag lines given by user at the top and bottom.
 
-We can see this from following sample image:
+We can see this from following:
 
 ![Meme_Generator_Application](./images/MemeGenerator.jpg)
 
